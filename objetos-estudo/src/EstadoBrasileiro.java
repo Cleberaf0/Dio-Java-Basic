@@ -11,6 +11,9 @@ public enum EstadoBrasileiro {
 	private String sigla;
 	private int ibge;
 	
+	private EstadoBrasileiro(String nome) {
+		this.nome = nome;
+	}
 	private EstadoBrasileiro(String sigla, String nome, int ibge) {
 		this.sigla = sigla;
 		this.nome = nome;
