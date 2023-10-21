@@ -1,18 +1,45 @@
-## Getting Started
+classDiagram IphoneCelular
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+class IPhoneCelular {
+  - musicas: List<Musica>
+  - telefone: Telefone
+  - navegador: Navegador
 
-## Folder Structure
+  + tocar()
+  + pausar()
+  + selecionarMusica(index:int)
+  + ligar()
+  + atender()
+  + iniciarCorreiroVoz()
+  + exibirPagina()
+  + adicionarNovaAba()
+  + atualizarPagina()
+}
 
-The workspace contains two folders by default, where:
+class Musica {
+  # nome: String
+  # artista: String
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+  + tocar()
+  + pausar()	
+}
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+class Telefone {
+  # numero: String
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+  + ligar(telefone:String)
+  + atender()
+  + iniciarCorreiroVoz()
+}
 
-## Dependency Management
+class Navegador {
+  - urlAtual: String
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+  + exibirPagina(url:String)
+  + adicionarNovaAba()
+  + atualizarPagina()
+}
+
+iPhone "1" o-- "n" Musica
+iPhone "1" o-- "1" Telefone
+iPhone "1" o-- "1" Navegador
