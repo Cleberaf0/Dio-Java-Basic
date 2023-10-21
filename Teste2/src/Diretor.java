@@ -1,7 +1,7 @@
-package CentralAprovaçãoPedidos.Aprovadores;
+package CentralAprovacaoPedidos.Aprovadores;
 
-import CentralAprovaçãoPedidos.Services.Aprovador;
-import CentralAprovaçãoPedidos.Services.Pedido;
+import CentralAprovacaoPedidos.Services.Aprovador;
+import CentralAprovacaoPedidos.Services.Pedido;
 
 public class Diretor extends Aprovador {
 

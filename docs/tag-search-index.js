@@ -1,1 +1,1 @@
-tagSearchIndex = [];updateSearchResults();
+tagSearchIndex = [{"l":"CentraldeAprovação","h":"class CentralAprovacaoPedidos.App.CentraldeAprovacao","d":"Section","u":"CentralAprovacaoPedidos/App/CentraldeAprovacao.html#centraldeaprova-o-heading"}];updateSearchResults();

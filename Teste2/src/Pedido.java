@@ -1,4 +1,4 @@
-package CentralAprovaçãoPedidos.Services;
+package CentralAprovacaoPedidos.Services;
 
 public class Pedido {
 

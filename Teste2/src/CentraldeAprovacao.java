@@ -1,10 +1,10 @@
-package CentralAprovaçãoPedidos.App;
+package CentralAprovacaoPedidos.App;
 
-import CentralAprovaçãoPedidos.Aprovadores.Diretor;
-import CentralAprovaçãoPedidos.Aprovadores.Gerente;
-import CentralAprovaçãoPedidos.Aprovadores.Presidente;
-import CentralAprovaçãoPedidos.Services.Aprovador;
-import CentralAprovaçãoPedidos.Services.Pedido;
+import CentralAprovacaoPedidos.Aprovadores.Diretor;
+import CentralAprovacaoPedidos.Aprovadores.Gerente;
+import CentralAprovacaoPedidos.Aprovadores.Presidente;
+import CentralAprovacaoPedidos.Services.Aprovador;
+import CentralAprovacaoPedidos.Services.Pedido;
 
 /**
 * <h1>CentraldeAprovação</h1>
@@ -18,7 +18,7 @@ import CentralAprovaçãoPedidos.Services.Pedido;
 * @since   19/01/2022
 */
 
-public class CentraldeAprovação {
+public class CentraldeAprovacao {
 
     public static void main(String[] args) {
 
