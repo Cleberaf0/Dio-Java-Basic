@@ -32,7 +32,7 @@ import com.dio.desafio.repositories.PedidoRepository;
 import com.dio.desafio.repositories.ProdutoRepository;
 
 @SpringBootApplication
-public class CursomcApplication implements CommandLineRunner {
+public class DesafioDioApplication implements CommandLineRunner {
 	
 	@Autowired
 	private CategoriaRepository categoriaRepository;
@@ -54,7 +54,7 @@ public class CursomcApplication implements CommandLineRunner {
 	private ItemPedidoRepository itemPedidoRepository;
 	
 	public static void main(String[] args) {
-		SpringApplication.run(CursomcApplication.class, args);
+		SpringApplication.run(DesafioDioApplication.class, args);
 	}
 
 	@Override
